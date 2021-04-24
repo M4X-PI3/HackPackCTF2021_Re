@@ -4,6 +4,8 @@ CTF competitive site: https://ctf2021.hackpack.club
 
 REVERSE
 
+
+
   **I> Function Pointer Fun (50)**
 * Bước đầu tiên mình thường làm trong việc reverse một file là scan metadata của file này.
 * https://www.metadata2go.com
@@ -21,6 +23,8 @@ REVERSE
 * submit password là ra flag
 * flag{c1RcU1t5_R_fUn!2!}
 
+
+
   **II> GaussBot (50)**
 * Tương tự, trước tiên ta kiểm tra metadata file GaussBot và bỏ vào IDA tương thích
 * ![image](https://user-images.githubusercontent.com/83124718/115961780-17c2d080-a542-11eb-99ea-0c444b81494d.png)
@@ -33,12 +37,16 @@ REVERSE
 * ![image](https://user-images.githubusercontent.com/83124718/115963841-67f26080-a54b-11eb-963f-4b065640d5f1.png)
 * flag{pr0gram-inside-4-pr0gram}
 
+
+
  ** III> BF means best friend, right? (50)**
 * BF nghĩa là best friend?
 * Google thì thấy ngay BF là BrainF**k,
 * Để kiểm tra những giá trị của đoạn mã này lưu trong memory, mình sử dụng phần mềm VBBrainFNET.exe
 * ![image](https://user-images.githubusercontent.com/83124718/115963956-244c2680-a54c-11eb-879e-73930fce2c66.png)
 flag{brain-blast}
+
+
 
   **IV> Exhell (86)**
 * exhell.xlsx một file excel, mở lên xem thử bên trong có gì,
