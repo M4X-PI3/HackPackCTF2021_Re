@@ -59,4 +59,4 @@ flag{brain-blast}
 * Copy sheet này thành Sheet3 và đổi các giá trị column A thành static
 * ![image](https://user-images.githubusercontent.com/83124718/115964393-89088080-a54e-11eb-9096-a9d0e63c9bb0.png)
 * Mình viết một đoạn code python để giải (exhell_solver.py) các giá trị từ A6 -> A41
-flag{0h_g33z_th4t5_a_l0t_sp3nt_0n_L3Cr0ix}
+* flag{0h_g33z_th4t5_a_l0t_sp3nt_0n_L3Cr0ix}
