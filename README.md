@@ -39,7 +39,7 @@ REVERSE
 
 
 
- ** III> BF means best friend, right? (50)**
+ **III> BF means best friend, right? (50)**
 * BF nghĩa là best friend?
 * Google thì thấy ngay BF là BrainF**k,
 * Để kiểm tra những giá trị của đoạn mã này lưu trong memory, mình sử dụng phần mềm VBBrainFNET.exe
