@@ -4,7 +4,7 @@ CTF competitive site: https://ctf2021.hackpack.club
 
 REVERSE
 
-I> Function Pointer Fun (50)
+  **I> Function Pointer Fun (50)**
 * Bước đầu tiên mình thường làm trong việc reverse một file là scan metadata của file này.
 * https://www.metadata2go.com
 * ![image](https://user-images.githubusercontent.com/83124718/115960665-ef84a300-a53c-11eb-9ced-083eb80789e2.png)
@@ -21,7 +21,7 @@ I> Function Pointer Fun (50)
 * submit password là ra flag
 * flag{c1RcU1t5_R_fUn!2!}
 
-II> GaussBot
+  **II> GaussBot (50)**
 * Tương tự, trước tiên ta kiểm tra metadata file GaussBot và bỏ vào IDA tương thích
 * ![image](https://user-images.githubusercontent.com/83124718/115961780-17c2d080-a542-11eb-99ea-0c444b81494d.png)
 * Trong chương trình này, các dữ liệu đều liên quan tính toán với 'code', nên follow code và kiểm tra thêm trong này có gì.
@@ -33,14 +33,14 @@ II> GaussBot
 * ![image](https://user-images.githubusercontent.com/83124718/115963841-67f26080-a54b-11eb-963f-4b065640d5f1.png)
 * flag{pr0gram-inside-4-pr0gram}
 
-III> BF means best friend, right?
+ ** III> BF means best friend, right? (50)**
 * BF nghĩa là best friend?
 * Google thì thấy ngay BF là BrainF**k,
 * Để kiểm tra những giá trị của đoạn mã này lưu trong memory, mình sử dụng phần mềm VBBrainFNET.exe
 * ![image](https://user-images.githubusercontent.com/83124718/115963956-244c2680-a54c-11eb-879e-73930fce2c66.png)
 flag{brain-blast}
 
-IV> Exhell 
+  **IV> Exhell (86)**
 * exhell.xlsx một file excel, mở lên xem thử bên trong có gì,
 * trong file này có 2 sheet Buget và sUpErSeCrEt.
 * Trong sheet Buget mình kiểm tra ở đây chỉ đơn thuần là những box lưu text thông thường, nhưng ở cell nope(H9) bên dưới cell flag{...}, một hàm gọi về sheet sUpErSeCrEt kiểm tra bool tại cell K1 sUpErSeCrEt
